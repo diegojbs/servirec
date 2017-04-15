@@ -12,5 +12,7 @@
 */
 
 Route::get('/', 'MainController@home');
+Route::get('puntos_de_pago', 'MainController@getPuntosPago');
+Route::get('plataforma', 'MainController@getPlataforma');
 Route::resource('contacto', 'ContactoPaginaController');
 Route::resource('registro', 'RegistroPaginaController');

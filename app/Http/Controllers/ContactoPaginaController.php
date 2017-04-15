@@ -51,8 +51,12 @@ class ContactoPaginaController extends Controller
         //     Flash::warning('¡Hubo un problema, intenta registrar de nuevo tus datos!')->important();
         // }
 
+
         if ($request->ajax()){
             if ($contacto->save()){
+
+                $contacto->enviarEmail($request);
+                
                 return response()->json([
                     'mensaje' => 'Registro guardado'
                 ]);

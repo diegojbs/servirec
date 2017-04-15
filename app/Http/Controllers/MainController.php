@@ -15,4 +15,17 @@ class MainController extends Controller
 
     	return view ('welcome', ['bancos' => $bancos, 'preguntas' => $preguntas]);
     }
+
+    public function getPuntosPago(){
+    	$bancos = DatosBanco::all();
+    	// $preguntas = Pregunta::all();
+    	// dd($preguntas);
+
+    	return view ('puntos_de_pago.index', ['bancos' => $bancos]);
+    }
+
+    public function getPlataforma(){
+
+    	return view ('plataforma.index');
+    }
 }

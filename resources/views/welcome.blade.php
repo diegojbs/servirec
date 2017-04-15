@@ -213,26 +213,6 @@
     </div>
 </div>
 
-<div class="container-fluid terciario" id="puntos_pago">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12">
-                <h3 class="encabezado ta p40">Puntos de pago autorizados</h3>
-            </div>
-        </div>
-        <div class="row">
-                @foreach($bancos as $banco)
-                    <div class="col-xs-12 col-sm-6 mb-20">
-                        <div class="z-depth-1">
-                            <h3 class="encabezado2 text-center white-text p10">{{$banco->nombre}}</h3>
-                            <div class="p20">{!! $banco->datos !!}</div>    
-                        </div>
-                    </div>    
-            @endforeach
-        </div>
-    </div>
-</div>
-
 
 <div class="container-fluid terciario pt-10"  id="preguntas_fre">
     <div class="container">
@@ -254,54 +234,24 @@
     </div>
 </div>
 
-<hr>
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12 col-lg-12">
-            <h3 class="ta">Recargamos todos los operadores</h3>
+<div class="container-fluid terciario" id="puntos_pago">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <h3 class="encabezado ta p40">Puntos de pago autorizados</h3>
+            </div>
         </div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/claro.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/movistar.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/tigo.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/uff.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/virgin.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/etb.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/une.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/direct_tv.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/exito_movil.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/avantel.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/paquetes_servirecarga.png') }}" class="img-fluid">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/paquetes_servirecarga_minutos.png') }}" class="maxancho">
+        <div class="row">
+                @foreach($bancos as $banco)
+                    <div class="col-xs-12 col-sm-6 mb-20">
+                        <div class="z-depth-1">
+                            <h3 class="encabezado2 text-center white-text p10">{{$banco->nombre}}</h3>
+                            <div class="p20">{!! $banco->datos !!}</div>    
+                        </div>
+                    </div>    
+            @endforeach
         </div>
     </div>
 </div>
-<audio id="sonido" src="http://www.sonidosmp3gratis.com/sounds/010607440_prev.mp3"> </audio>
 
 @endsection
