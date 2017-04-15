@@ -17,8 +17,8 @@ class ContactoPagina extends Model
 
         Mail::send('emails.nuevo_contacto', ['datos'=> $datos], function($msj) use ($datos) {
             $msj->subject('Solicitud de informacion recargas: '.$datos->nombres);
-            $msj->from($datos->email, $datos->nombres.' '.$datos->apellidos);
-            $msj->replyTo($datos->email, $datos->nombres.' '.$datos->apellidos);
+            $msj->from($datos->correo, $datos->nombres.' '.$datos->apellidos);
+            $msj->replyTo($datos->correo, $datos->nombres.' '.$datos->apellidos);
             $msj->to('info@servirecarga.com');
         });
     }

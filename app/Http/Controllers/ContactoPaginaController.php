@@ -55,8 +55,8 @@ class ContactoPaginaController extends Controller
         if ($request->ajax()){
             if ($contacto->save()){
 
-                $contacto->enviarEmail($request);
-                
+                $contacto->enviarEmail($contacto);
+
                 return response()->json([
                     'mensaje' => 'Registro guardado'
                 ]);
