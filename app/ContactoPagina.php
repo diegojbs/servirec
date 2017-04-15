@@ -4,6 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use Mail;
+
 class ContactoPagina extends Model
 {
     protected $table = 'contactos_pagina';
