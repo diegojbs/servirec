@@ -38,13 +38,13 @@ $(document).ready(
   		},
   		success: function(data){
   			// $button.css("background-color", "green").val("DATOS RECIBIDOS");
-  			$button.val("DATOS RECIBIDOS");
+  			$button.val("¡DATOS RECIBIDOS CON ÉXITO!");
 
   			console.info(data);
 
-  			setTimeout(function(){
-  				resetBoton($button);
-  			}, 3000);
+  			// setTimeout(function(){
+  			// 	resetBoton($button);
+  			// }, 3000);
 
   			sonar();
   			$form[0].reset();
