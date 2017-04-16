@@ -35,7 +35,4 @@
     </div>
 </div>
 
-
-<audio id="sonido" src="http://www.sonidosmp3gratis.com/sounds/010607440_prev.mp3"> </audio>
-
 @endsection

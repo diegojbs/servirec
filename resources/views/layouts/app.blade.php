@@ -111,8 +111,40 @@
         </div>
     </div>
 </div>
+
+
 <audio id="sonido" src="http://www.sonidosmp3gratis.com/sounds/010607440_prev.mp3"> </audio>
 
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title w-100" id="myModalLabel">Datos enviados.</h4>
+            </div>
+            <!--Body-->
+            <div class="modal-body">
+                <p>
+                    Hemos recibido sus datos correctamente, nos comunicaremos con Usted a su correo o a su teléfono. Por favor estar pendiente.
+                </p>
+            </div>
+            <!--Footer-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<!-- fin modal  -->
 
 <!--Footer-->
 <footer class="page-footer blue center-on-small-only">

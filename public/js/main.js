@@ -3,7 +3,12 @@ var sonido = document.getElementById("sonido");
 $(".nav-item").on("click", function(){
     $("#menumovil").addClass("collapsed");
     $("#navbarNav1").removeClass("show");
-  });
+});
+
+$("#abreModal").on("click", function(){
+  $('#myModal').modal('show');
+  console.info("Presionado");
+});
 
 $(document).ready(
 
@@ -38,7 +43,7 @@ $(document).ready(
   		},
   		success: function(data){
   			// $button.css("background-color", "green").val("DATOS RECIBIDOS");
-  			$button.val("¡DATOS RECIBIDOS CON ÉXITO!");
+  			$button.val("¡DATOS ENVIADOS!");
 
   			console.info(data);
 
@@ -48,6 +53,7 @@ $(document).ready(
 
   			sonar();
   			$form[0].reset();
+        $('#myModal').modal('show');
   		},
   		error: function(err){
   			console.log(err);
