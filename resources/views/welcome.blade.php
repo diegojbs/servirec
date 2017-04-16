@@ -132,43 +132,43 @@
                     {{csrf_field() }}
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="nombres">
+                            <input type="text" id="form2" class="form-control" name="nombres"  required="true">
                             <label for="form2">Nombre</label>
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="identificacion">
+                            <input type="text" id="form2" class="form-control" name="identificacion" required="true">
                             <label for="form2">Numero de cédula o NIT</label>
                         </div>
                     </div>
 
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="email" id="form2" class="form-control" name="correo">
+                            <input type="email" id="form2" class="form-control" name="correo" required="true">
                             <label for="form2">Su email</label>
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="telefono">
+                            <input type="text" id="form2" class="form-control" name="telefono" required="true">
                             <label for="form2">Número de telefono</label>
                         </div>
                     </div>
 
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="ciudad">
+                            <input type="text" id="form2" class="form-control" name="ciudad" required="true">
                             <label for="form2">Ciudad</label>
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="direccion">
+                            <input type="text" id="form2" class="form-control" name="direccion" required="true">
                             <label for="form2">Dirección completa</label>
                         </div>
                     </div>
                     
                     <div class="row prl20">
                         <div class="md-form  col-md-6">
-                            <input type="text" id="form2" class="form-control" name="negocio">
+                            <input type="text" id="form2" class="form-control" name="negocio" required="true">
                             <label for="form2">Nombre del negocio</label>
                         </div>
 
