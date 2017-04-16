@@ -42,7 +42,7 @@ class ContactoPaginaController extends Controller
         $contacto->apellidos = $request->apellidos;
         $contacto->correo = $request->email;
         $contacto->telefono = $request->telefono;
-        $contacto->fecha = date('Y-m-d h:i:s');
+        $contacto->fecha = date('Y-m-d H:i:s');
 
         // if ($contacto->save()){
         //     Flash::success('Gracias '.$request->nombres.' Se ha registrado correctamente')->important();

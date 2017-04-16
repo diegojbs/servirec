@@ -44,6 +44,7 @@ class RegistroPaginaController extends Controller
         $registro->ciudad = $request->ciudad;
         $registro->direccion = $request->direccion;
         $registro->negocio = $request->negocio;
+        $registro->created_at = date('Y-m-d H:i:s');
 
         // if ($registro->save()){
         //     Flash::success('Gracias '.$request->nombres.' Se ha registrado como cliente correctamente, favor estar pendiente de su correo electrónico')->important();
@@ -54,6 +55,7 @@ class RegistroPaginaController extends Controller
 
         if ($request->ajax()){
             if ($registro->save()){
+                $registro->enviarEmail($registro);
                 return response()->json([
                     'mensaje' => 'Registro guardado'
                 ]);
