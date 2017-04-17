@@ -6,6 +6,7 @@
 </head>
 <body>
 	<h3>Solicitud de registro de recargas.</h3>
+	<strong>Identificacion: </strong>{{$datos->identificacion}}<br>
 	<strong>Nombre: </strong>{{$datos->nombres}}<br>
 	<strong>Correo: </strong>{{$datos->correo}}<br>
 	<strong>Telefono: </strong>{{$datos->telefono}}<br>
