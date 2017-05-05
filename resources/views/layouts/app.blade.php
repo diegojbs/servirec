@@ -161,7 +161,6 @@
                     <li>Horario de atención.</li>
                     <li>Lunes a viernes 8:00 am a 5:30 pm.</li>
                     <li>Teléfonos de contacto (2) 3724803 - 3103930123.</li>
-                    <li>Email: info@servirecarga.com</li>
                     <li>Cali Valle del Cauca.</li>
                 </ul>
             </div>
