@@ -1,4 +1,7 @@
 /* YOUR CUSTOM STYLES */
+
+/* Estilos globales */
+
 body{
 	font-size: 1.2em;
 	background-color: #e0e0e0;
@@ -10,6 +13,10 @@ body{
 
 .ln{
 	color: black;
+}
+
+.lgray{
+	color: grey;
 }
 
 .la{
@@ -186,3 +193,8 @@ body{
     background: linear-gradient(#0275d8, white); 
 }
 
+@media only screen and (max-width: 992px) {
+	.m60 {
+		margin-left: 60px !important;
+	}
+}

@@ -1,4 +1,4 @@
-var sonido = document.getElementById("sonido"); 
+//var sonido = document.getElementById("sonido"); 
 
 $(".nav-item").on("click", function(){
     $("#menumovil").addClass("collapsed");
@@ -51,7 +51,7 @@ $(document).ready(
   			// 	resetBoton($button);
   			// }, 3000);
 
-  			sonar();
+  			//sonar();
   			$form[0].reset();
         $('#myModal').modal('show');
   		},
@@ -74,6 +74,6 @@ function resetBoton($button){
   	$button.val("Enviar").attr("style", "");
  };
 
- function sonar(){
+ /*function sonar(){
  	sonido.play();
- }
+ }*/
