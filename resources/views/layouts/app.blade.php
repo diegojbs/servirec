@@ -84,7 +84,7 @@
             <img src="{{ asset('img/logos_operadores/tigo.png') }}" class="img-fluid">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
-            <img src="{{ asset('img/logos_operadores/uff.png') }}" class="img-fluid">
+            <img src="{{ asset('img/logos_operadores/flash_mobile_colombia_servirecarga.png') }}" class="img-fluid">
         </div>
         <div class="col-xs-6 col-sm-6 col-md-1 col-lg-1">
             <img src="{{ asset('img/logos_operadores/virgin.png') }}" class="img-fluid">
