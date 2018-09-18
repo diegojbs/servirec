@@ -42,23 +42,23 @@
                     {{csrf_field() }}
                     <hr>
                     <div class="md-form">
-                        <input type="text" id="form1" class="form-control" name="nombres" required="true">
-                        <label for="form1">Nombre</label>
+                        <input type="text" id="nombresc" class="form-control" name="nombres" required="true">
+                        <label for="nombresc">Nombre</label>
                     </div>
 
                     <div class="md-form">
-                        <input type="text" id="form1" class="form-control" name="apellidos" required="true">
-                        <label for="form1">Apellido</label>
+                        <input type="text" id="apellidosc" class="form-control" name="apellidos" required="true">
+                        <label for="apellidosc">Apellido</label>
                     </div>
 
                     <div class="md-form">
-                        <input type="email" id="form1" class="form-control"  name="email" required="true">
-                        <label for="form1">Email</label>
+                        <input type="email" id="emailc" class="form-control"  name="email" required="true">
+                        <label for="emailc">Email</label>
                     </div>
 
                     <div class="md-form">
-                        <input type="text" id="form1" class="form-control" name="telefono" required="true">
-                        <label for="form1">Teléfono</label>
+                        <input type="text" id="telefonoc" class="form-control" name="telefono" required="true">
+                        <label for="telefonoc">Teléfono</label>
                     </div>
 
                     <div class="md-form text-center">
@@ -104,10 +104,11 @@
 
 <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 p0  animated fadeIn retraso-1">
-        <div class="p10 ta gris la">
-            <div class="p20">
-                <h3 class="negrita">La mejor plataforma para vender recargas</h3>
-                
+        <div class="p20 ta  la">
+            <div class="container">
+                <h3 class="negrita">Se esta uniendo a la mejor plataforma para vender recargas</h3>
+                <h4>Miles de clientes nos prefieren en Colombia</h4>
+                <p class="lgray">Supermercados, tiendas, droguerías y su negocio también puede ser hoy mismo punto de venta de recargas, regístrese ahora en el Formulario de registro de nuevo cliente que encuentra aquí abajo</p>
             </div>
         </div>
     </div>
@@ -121,7 +122,7 @@
         <div class="row"  id="nuevo_cliente">
             <div class="col-xs-12 col-md-12 col-lg-12 p0">
                 <div class="p40 ta encabezado">
-                    <h3 class="">Formulario de nuevo cliente</h3>
+                    <h3 class="">Registro de nuevo cliente</h3>
                 </div>
             </div>
         </div>
@@ -132,44 +133,44 @@
                     {{csrf_field() }}
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="nombres"  required="true">
-                            <label for="form2">Nombre</label>
+                            <input type="text" id="nombresn" class="form-control" name="nombres"  required="true">
+                            <label for="nombresn">Nombre</label>
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="identificacion" required="true">
-                            <label for="form2">Numero de cédula o NIT</label>
-                        </div>
-                    </div>
-
-                    <div class="row prl20">
-                        <div class="md-form col-md-6">
-                            <input type="email" id="form2" class="form-control" name="correo" required="true">
-                            <label for="form2">Su email</label>
-                        </div>
-
-                        <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="telefono" required="true">
-                            <label for="form2">Número de telefono</label>
+                            <input type="text" id="identificacionn" class="form-control" name="identificacion" required="true">
+                            <label for="identificacionn">Numero de cédula o NIT</label>
                         </div>
                     </div>
 
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="ciudad" required="true">
-                            <label for="form2">Ciudad</label>
+                            <input type="email" id="correon" class="form-control" name="correo" required="true">
+                            <label for="correon">Su email</label>
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="form2" class="form-control" name="direccion" required="true">
-                            <label for="form2">Dirección completa</label>
+                            <input type="text" id="telefonon" class="form-control" name="telefono" required="true">
+                            <label for="telefonon">Número de telefono</label>
+                        </div>
+                    </div>
+
+                    <div class="row prl20">
+                        <div class="md-form col-md-6">
+                            <input type="text" id="ciudadn" class="form-control" name="ciudad" required="true">
+                            <label for="ciudadn">Ciudad - Departamento</label>
+                        </div>
+
+                        <div class="md-form col-md-6">
+                            <input type="text" id="direccionn" class="form-control" name="direccion" required="true">
+                            <label for="direccionn">Dirección completa</label>
                         </div>
                     </div>
                     
                     <div class="row prl20">
                         <div class="md-form  col-md-6">
-                            <input type="text" id="form2" class="form-control" name="negocio" required="true">
-                            <label for="form2">Nombre del negocio</label>
+                            <input type="text" id="negocion" class="form-control" name="negocio" required="true">
+                            <label for="negocion">Nombre del negocio</label>
                         </div>
 
                         <div class="md-form col-md-6 text-center">

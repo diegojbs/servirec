@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='Classification' content='Business'>
-  <meta name='url' content='http://www.servirecarga.com'>
+  <meta name='url' content='https://www.servirecarga.com'>
   <meta name="description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
         <meta name="keywords" content="recargas, vender recargas, servirecargas, servirecarga, sistema de recargas para celular, recargas para celular colombia, distribuidor de recargas a todo operador, distribuidor de recargas virtuales, venta de recargas para negocio, proveedor de recargas, servicio de recargas para negocios, distribuidores de recargas, proveedor de recargas, recargas para negocio, sistema de recargas, recargas celular, proveedores de recargas para celular, como vender recargas, recarga de celulares para negocios">
 	<title>Servirecarga - Recargas</title>
@@ -30,19 +30,19 @@
 <!--Navbar-->
 <nav class="navbar navbar-toggleable-md navbar-dark bg-primary fixed-top mb-50">
     <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation" id="menumovil">
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation" id="menumovil">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="{{ asset('/') }}">
+        <a class="navbar-brand m60" href="{{ asset('/') }}">
             <strong>SERVIRECARGA.COM</strong>
         </a>
         <div class="collapse navbar-collapse" id="navbarNav1">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="{{ asset('/') }}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{asset('/')}}#nuevo_cliente" >Nuevo cliente</a>
+                    <a class="btn btn-info" href="{{asset('/')}}#nuevo_cliente" >Nuevo cliente</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ asset('/puntos_de_pago') }}">Puntos de pago</a>
@@ -54,7 +54,8 @@
                     <a class="nav-link" href="{{asset('/')}}">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{asset('/plataforma')}}" target="_blank">Plataforma</a>
+                    {{-- <a class="nav-link" href="{{asset('/plataforma')}}" target="_blank">Plataforma</a> --}}
+                    <a class="nav-link" href="http://servirecarga.com/plataforma" target="_blank">Plataforma</a>
                 </li>
         </div>
     </div>
@@ -113,8 +114,6 @@
 </div>
 
 
-<audio id="sonido" src="http://www.sonidosmp3gratis.com/sounds/010607440_prev.mp3"> </audio>
-
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -162,6 +161,7 @@
                     <li>Lunes a viernes 8:00 am a 5:30 pm.</li>
                     <li>Teléfonos de contacto (2) 3724803 - 3103930123.</li>
                     <li>Cali Valle del Cauca.</li>
+                    <li><a class="btn btn-info" href="{{asset('/')}}#nuevo_cliente" >Nuevo cliente</a></li>
                 </ul>
             </div>
             <!--/.First column-->
@@ -170,13 +170,13 @@
             <div class="col-md-6">
                 <h5 class="title">Enlaces importantes</h5>
                 <ul>
-                    <li><a href="{{ asset('/') }}">Inicio</a></li>
+                    <li><a href="{{asset('/') }}">Inicio</a></li>
                     <li><a href="{{asset('/')}}#nuevo_cliente">Nuevo cliente</a></li>
-                    <li><a href="{{ asset('/puntos_de_pago') }}">Puntos de pago</a></li>
+                    <li><a href="{{asset('/puntos_de_pago') }}">Puntos de pago</a></li>
                     <li><a href="{{asset('/')}}#preguntas_fre">Preguntas frecuentes</a></li>
                     <li><a href="{{asset('/')}}">Contacto</a></li>
                     <li><a href="{{asset('/plataforma')}}" target="_blank">Plataforma</a></li>
-                    <li><a href="http://anydesk.es/download" target="_blank">Soporte remoto</a></li>
+                    <li><a href="https://anydesk.es/download" target="_blank">Soporte remoto</a></li>
                 </ul>
             </div>
             <!--/.Second column-->
@@ -187,7 +187,7 @@
     <!--Copyright-->
     <div class="footer-copyright">
         <div class="container-fluid">
-            © 2017 Copyright: <a href="#"> servirecarga.com </a>
+            © 2018 Copyright: <a href="#"> servirecarga.com </a>
 
         </div>
     </div>
