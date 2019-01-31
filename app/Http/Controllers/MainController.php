@@ -9,7 +9,7 @@ use App\Pregunta;
 class MainController extends Controller
 {
     public function home(){
-    	$bancos = DatosBanco::all();
+    	$bancos = DatosBanco::orderBy('id', 'desc')->get();
     	$preguntas = Pregunta::all();
     	// dd($preguntas);
 
@@ -17,7 +17,7 @@ class MainController extends Controller
     }
 
     public function getPuntosPago(){
-    	$bancos = DatosBanco::all();
+    	$bancos = DatosBanco::orderBy('id', 'desc')->get();
     	// $preguntas = Pregunta::all();
     	// dd($preguntas);
 
