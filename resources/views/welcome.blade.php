@@ -170,7 +170,7 @@
             <div class="col-sm-12 col-md-6">
 
                 
-                <p>En horas laborales el proceso de creaciónde su usuario no nos tomas más de 10 minutos.</p>
+                <p>En horas laborales el proceso de creación de su usuario sólo tarda 10 minutos.</p>
                 <p class="text-center">
                     <a class="btn btn-warning btn-lg" href="{{ asset('/registro') }}" role="button">Nuevo cliente</a>
                 </p>

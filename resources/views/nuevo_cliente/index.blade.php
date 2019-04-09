@@ -1,6 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
+<div>
+    <br>
+    <br>
+    <br>
+</div>
+
 
 <div class="container-fruid">
     
