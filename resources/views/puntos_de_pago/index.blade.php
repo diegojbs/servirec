@@ -76,7 +76,7 @@
 
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-center"><a href="{{asset('/') }}">Inicio</a></li>
-                        <li class="list-group-item text-center"><a href="{{asset('/')}}#nuevo_cliente">Nuevo cliente</a></li>
+                        <li class="list-group-item text-center"><a href="{{ asset('/registro') }}">Nuevo cliente</a></li>
                         <li class="list-group-item text-center"><a href="{{asset('/puntos_de_pago') }}">Puntos de pago</a></li>
                         <li class="list-group-item text-center"><a href="{{asset('/')}}#preguntas_fre">Preguntas frecuentes</a></li>
                         <li class="list-group-item text-center">
