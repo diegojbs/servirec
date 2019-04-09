@@ -46,23 +46,22 @@ class RegistroPaginaController extends Controller
         $registro->negocio = $request->negocio;
         $registro->created_at = date('Y-m-d H:i:s');
 
-        // if ($registro->save()){
-        //     Flash::success('Gracias '.$request->nombres.' Se ha registrado como cliente correctamente, favor estar pendiente de su correo electrónico')->important();
-        
-        // }else{
-        //     Flash::warning('¡Hubo un problema, intenta registrar de nuevo tus datos!')->important();
-        // }
-
         if ($request->ajax()){
             if ($registro->save()){
                 $registro->enviarEmail($registro);
                 return response()->json([
-                    'mensaje' => 'Registro guardado'
+                    'mensaje' => 'Registro guardado',
+                    'show_message' => '1'
                 ]);
+            }
+        }else{
+
+            if ($registro->save()){
+                $registro->enviarEmail($registro);
+                return view ('nuevo_cliente.index', ['show_message' => '1']);
             }
         }
 
-        return redirect(url()->previous());
 
 
     }

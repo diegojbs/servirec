@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\ContactoPagina;
 use Laracasts\Flash\Flash;
 
+use App\DatosBanco;
+use App\Pregunta;
+
 class ContactoPaginaController extends Controller
 {
     /**
@@ -61,9 +64,18 @@ class ContactoPaginaController extends Controller
                     'mensaje' => 'Registro guardado'
                 ]);
             }
+        }else{
+            if ($contacto->save()){
+
+                $contacto->enviarEmail($contacto);
+
+                $bancos = DatosBanco::orderBy('id', 'desc')->get();
+                $preguntas = Pregunta::all();
+        
+                return view('welcome', ['show_message' => '1', 'bancos' => $bancos, 'preguntas' => $preguntas]);
+            }
         }
 
-        return redirect(url()->previous());
         
     }
 

@@ -13,7 +13,15 @@ class MainController extends Controller
     	$preguntas = Pregunta::all();
     	// dd($preguntas);
 
-    	return view ('welcome', ['bancos' => $bancos, 'preguntas' => $preguntas]);
+    	return view ('welcome', ['bancos' => $bancos, 'preguntas' => $preguntas, 'show_message' => '0']);
+	}
+	
+	public function nuevoCliente(){
+    	// $bancos = DatosBanco::orderBy('id', 'desc')->get();
+    	// $preguntas = Pregunta::all();
+    	// dd('Hola');
+
+    	return view ('nuevo_cliente.index', ['show_message' => '0']);
     }
 
     public function getPuntosPago(){
