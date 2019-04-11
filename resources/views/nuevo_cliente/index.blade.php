@@ -112,9 +112,9 @@
                         <p>Lunes a viernes 8:00 am a 5:30 pm.</p>
                         <p>Teléfonos de contacto (2) 3724803 - 3103930123.</p>
                         <p>Cali Valle del Cauca.</p>
-                        <p>
+                        {{-- <p>
                             <a class="btn btn-warning" href="{{asset('/')}}#nuevo_cliente" >Nuevo cliente</a>
-                        </p>
+                        </p> --}}
                     
 
                     </div>
@@ -133,7 +133,7 @@
 
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-center"><a href="{{asset('/') }}">Inicio</a></li>
-                        <li class="list-group-item text-center"><a href="{{ asset('/registro') }}">Nuevo cliente</a></li>
+                        {{-- <li class="list-group-item text-center"><a href="{{ asset('/registro') }}">Nuevo cliente</a></li> --}}
                         <li class="list-group-item text-center"><a href="{{asset('/puntos_de_pago') }}">Puntos de pago</a></li>
                         <li class="list-group-item text-center"><a href="{{asset('/')}}#preguntas_fre">Preguntas frecuentes</a></li>
                         <li class="list-group-item text-center">
