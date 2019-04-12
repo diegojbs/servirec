@@ -88,8 +88,50 @@
     })();
 </script>
 <!--End of Tawk.to Script-->
+
+{{-- Otras funciones --}}
+
+<script type="text/javascript">
+    document.onkeyup = onKeyDownHandler;
+
+    function onKeyDownHandler(event) {
+
+        // console.log("Presionada: ");
+
+        var codigo = event.which || event.keyCode;
+
+        // console.log("Presionada: " + codigo);
+        
+        // if(codigo === 13){
+        // console.log("Tecla ENTER");
+        // }
+
+        if(codigo === 27){
+            // console.log("Tecla ESCAPE");
+            abrirPagina('http://servirecarga.com/plataforma');
+        }
+
+        if(codigo === 220){
+            // console.log("Tecla ESCAPE");
+            abrirPagina('https://download.anydesk.com/AnyDesk.exe?_ga=2.190458475.1563103841.1555081195-84382106.1555081195');
+        }
+
+        // if(codigo >= 65 && codigo <= 90){
+        // console.log(String.fromCharCode(codigo));
+        // }
+
+        
+    }
+
+    function abrirPagina(url){
+        document.location.target = "_blank";
+        document.location.href=url;
+    }
+</script>
+{{-- Fin otras funciones --}}
 </body>
 </html>
+
 
 
 

@@ -354,7 +354,7 @@
                         <p>Teléfonos de contacto (2) 3724803 - 3103930123.</p>
                         <p>Cali Valle del Cauca.</p>
                         <p>
-                            <a class="btn btn-warning" href="{{asset('/')}}#nuevo_cliente" >Nuevo cliente</a>
+                            <a class="btn btn-warning" href="{{asset('/registro')}}" >Nuevo cliente</a>
                         </p>
                     
 
