@@ -53,7 +53,7 @@
                     
                         <p>Horario de atención.</p>
                         <p>Lunes a viernes 8:00 am a 5:30 pm.</p>
-                        <p>Teléfonos de contacto (2) 3724803 - 3103930123.</p>
+                        <p>Teléfonos de contacto  {{ env('TEL_FIJO') }} - {{ env('TEL_CEL')}}</p>
                         <p>Cali Valle del Cauca.</p>
                         <p>
                             <a class="btn btn-warning" href="{{asset('/registro')}}#nuevo_cliente" >Nuevo cliente</a>

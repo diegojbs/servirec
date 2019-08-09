@@ -85,16 +85,16 @@
                     </h5>
                     <img src="{{ asset('img/varios/servirecarga-publicidad-2.jpg') }}" class="img-fluid" alt="">
                     <h3 class="card-text text-center">Llámenos</h3>
-                    <p class="card-text text-center">Teléfono: (2) 3724803</p>
+                    <p class="card-text text-center">Teléfono:  {{ env('TEL_FIJO') }}</p>
                     <p class="card-text text-center">
-                        Celular: 3103930123
+                        Celular: {{ env('TEL_CEL') }}
                     </p>
 
                     <p class="d-block d-sm-none text-center">
                         Escríbanos por Whatsapp haciendo clic en la imagen
                     </p>
                     <p class="d-block d-sm-none text-center">
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=573103930123&text=Información de recargas">
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=57{{ env('TEL_CEL') }}&text=Información de recargas">
                             <img style="max-width: 30%" class="img-fluid" src="{{asset('img/varios/whatsapp-logo.png') }}" alt="">
                         </a>
                     </p>
@@ -149,7 +149,7 @@
         Escríbanos por Whatsapp haciendo clic en la imagen
     </p>
     <p class="d-block d-sm-none text-center">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=573103930123&text=Información de recargas">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=57{{ env('TEL_CEL') }}&text=Información de recargas">
             <img style="max-width: 30%" class="img-fluid" src="{{asset('img/varios/whatsapp-logo.png') }}" alt="">
         </a>
     </p>
@@ -269,7 +269,7 @@
         Escríbanos por Whatsapp haciendo clic en la imagen
     </p>
     <p class="d-block d-sm-none text-center">
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=573103930123&text=Información de recargas">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=57{{ env('TEL_CEL') }}&text=Información de recargas">
             <img style="max-width: 30%" class="img-fluid" src="{{asset('img/varios/whatsapp-logo.png') }}" alt="">
         </a>
     </p>
@@ -351,7 +351,7 @@
                     
                         <p>Horario de atención.</p>
                         <p>Lunes a viernes 8:00 am a 5:30 pm.</p>
-                        <p>Teléfonos de contacto (2) 3724803 - 3103930123.</p>
+                        <p>Teléfonos de contacto {{ env('TEL_FIJO') }} - {{ env('TEL_CEL')}}</p>
                         <p>Cali Valle del Cauca.</p>
                         <p>
                             <a class="btn btn-warning" href="{{asset('/registro')}}" >Nuevo cliente</a>
