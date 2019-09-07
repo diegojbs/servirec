@@ -42,28 +42,40 @@
                         </div>
                     @endif
 
-                    {{-- <form action="{{ url ('/contacto') }}" method="POST" class="peticion   animated fadeIn retraso-2"> --}}
-                        <form action="{{ url ('/contacto') }}" method="POST" animated fadeIn retraso-2">
+                    <form action="{{ url ('/contacto') }}" method="POST" animated fadeIn retraso-2">
                     {{csrf_field() }}
                     <hr>
                     <div class="md-form">
-                        <input type="text" id="nombresc" class="form-control" name="nombres" required="true">
-                        <label for="nombresc">Nombre</label>
+
+                        <div class="form-group">
+                            <label for="nombresc">Nombre</label>
+                            <input type="text" class="form-control" id="nombresc"  name="nombres" aria-describedby="nombresc" placeholder="Ingrese su nombre"  required="true">
+                            {{-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> --}}
+                        </div>
                     </div>
 
                     <div class="md-form">
-                        <input type="text" id="apellidosc" class="form-control" name="apellidos" required="true">
-                        <label for="apellidosc">Apellido</label>
+
+                        <div class="form-group">
+                            <label for="apellidosc">Apellidos</label>
+                            <input type="text" class="form-control" id="apellidosc"  name="apellidos" aria-describedby="apellidosc" placeholder="Ingrese apellidos"  required="true">
+                        </div>
                     </div>
 
                     <div class="md-form">
-                        <input type="email" id="emailc" class="form-control"  name="email" required="true">
-                        <label for="emailc">Email</label>
+
+                        <div class="form-group">
+                            <label for="apellidosc">Email</label>
+                            <input type="email" class="form-control" id="emailc"  name="email" aria-describedby="emailc" placeholder="Ingrese su correo"  required="true">
+                        </div>
                     </div>
 
                     <div class="md-form">
-                        <input type="text" id="telefonoc" class="form-control" name="telefono" required="true">
-                        <label for="telefonoc">Teléfono</label>
+
+                        <div class="form-group">
+                            <label for="telefonoc">Teléfono</label>
+                            <input type="text" class="form-control" id="telefonoc"  name="telefono" aria-describedby="telefonoc" placeholder="Ingrese su telefono"  required="true">
+                        </div>
                     </div>
 
                     <div class="md-form text-center">

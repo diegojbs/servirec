@@ -35,44 +35,72 @@
                     {{csrf_field() }}
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="nombresn" class="form-control" name="nombres"  required="true">
-                            <label for="nombresn">Nombre</label>
+                            
+                            <div class="form-group">
+                                <label for="nombresn">Nombre</label>
+                                <input type="text" class="form-control" id="nombresn"  name="nombres" aria-describedby="nombresn" placeholder="Ingrese su nombre completo"  required="true">
+                            </div>
+
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="identificacionn" class="form-control" name="identificacion" required="true">
-                            <label for="identificacionn">Numero de cédula o NIT</label>
-                        </div>
-                    </div>
+                            
+                            <div class="form-group">
+                                <label for="identificacionn">Numero de cédula o NIT</label>
+                                <input type="text" class="form-control" id="identificacionn"  name="identificacion" aria-describedby="identificacionn" placeholder="Cédula o NIT"  required="true">
+                            </div>
 
-                    <div class="row prl20">
-                        <div class="md-form col-md-6">
-                            <input type="email" id="correon" class="form-control" name="correo" required="true">
-                            <label for="correon">Su email</label>
-                        </div>
-
-                        <div class="md-form col-md-6">
-                            <input type="text" id="telefonon" class="form-control" name="telefono" required="true">
-                            <label for="telefonon">Número de telefono</label>
                         </div>
                     </div>
 
                     <div class="row prl20">
                         <div class="md-form col-md-6">
-                            <input type="text" id="ciudadn" class="form-control" name="ciudad" required="true">
-                            <label for="ciudadn">Ciudad - Departamento</label>
+                            
+                            <div class="form-group">
+                                <label for="correon">Su email</label>
+                                <input type="email" class="form-control" id="correon"  name="correo" aria-describedby="correon" placeholder="Su email"  required="true">
+                            </div>
+
                         </div>
 
                         <div class="md-form col-md-6">
-                            <input type="text" id="direccionn" class="form-control" name="direccion" required="true">
-                            <label for="direccionn">Dirección completa</label>
+                            
+                            <div class="form-group">
+                                <label for="telefonon">Número de telefono</label>
+                                <input type="text" class="form-control" id="telefonon"  name="telefono" aria-describedby="telefonon" placeholder="Teléfonos"  required="true">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row prl20">
+                        <div class="md-form col-md-6">
+                            
+                            <div class="form-group">
+                                <label for="ciudadn">Ciudad - Departamento</label>
+                                <input type="text" class="form-control" id="ciudadn"  name="ciudad" aria-describedby="ciudadn" placeholder="Ciudad - Departamento"  required="true">
+                            </div>
+
+                        </div>
+
+                        <div class="md-form col-md-6">
+                            
+                            <div class="form-group">
+                                <label for="direccionn">Dirección completa</label>
+                                <input type="text" class="form-control" id="direccionn"  name="direccion" aria-describedby="direccionn" placeholder="Dirección completa"  required="true">
+                            </div>
+
                         </div>
                     </div>
                     
                     <div class="row prl20">
                         <div class="md-form  col-md-6">
-                            <input type="text" id="negocion" class="form-control" name="negocio" required="true">
-                            <label for="negocion">Nombre del negocio</label>
+                            
+                            <div class="form-group">
+                                <label for="negocion">Nombre del negocio</label>
+                                <input type="text" class="form-control" id="negocion"  name="negocio" aria-describedby="negocionn" placeholder="Nombre del negocio"  required="true">
+                            </div>
+
                         </div>
 
                         <div class="md-form col-md-6 text-center">

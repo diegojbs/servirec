@@ -5,10 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name='Classification' content='Business'>
-  <meta name='url' content='https://www.servirecarga.com'>
-  <meta name="description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
-        <meta name="keywords" content="recargas, vender recargas, servirecargas, servirecarga, sistema de recargas para celular, recargas para celular colombia, distribuidor de recargas a todo operador, distribuidor de recargas virtuales, venta de recargas para negocio, proveedor de recargas, servicio de recargas para negocios, distribuidores de recargas, proveedor de recargas, recargas para negocio, sistema de recargas, recargas celular, proveedores de recargas para celular, como vender recargas, recarga de celulares para negocios">
-	<title>Servirecarga - Recargas</title>
+    <meta name='url' content='https://www.servirecarga.com'>
+    <meta name="keywords" content="recargas, vender recargas, servirecargas, servirecarga, sistema de recargas para celular, recargas para celular colombia, distribuidor de recargas a todo operador, distribuidor de recargas virtuales, venta de recargas para negocio, proveedor de recargas, servicio de recargas para negocios, distribuidores de recargas, proveedor de recargas, recargas para negocio, sistema de recargas, recargas celular, proveedores de recargas para celular, como vender recargas, recarga de celulares para negocios">
+    
+    <!-- HTML Meta Tags -->
+    <title>Servirecarga - Recargas</title>
+    <meta name="description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Servirecarga - Recargas">
+    <meta itemprop="description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
+    <meta itemprop="image" content="{{ asset('img/logo/servirecarga-social-img.jpg') }}">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://servirecarga.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Servirecarga - Recargas">
+    <meta property="og:description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
+    <meta property="og:image" content="{{ asset('img/logo/servirecarga-social-img.jpg') }}">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Servirecarga - Recargas">
+    <meta name="twitter:description" content="VENDER RECARGAS Servirecarga le presta los servicios de plataforma para vender recargas en Colombia, una empresa con mas de cinco años de experiencia y clientes al rededor de todo el pais.">
+    <meta name="twitter:image" content="{{ asset('img/logo/servirecarga-social-img.jpg') }}">
+
 	<!-- Material Design fonts -->
 	<!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">

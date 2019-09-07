@@ -11,5 +11,16 @@
 	<strong>Telefono: </strong>{{$datos->telefono}}<br>
 	<strong>Fecha: </strong>{{$datos->fecha}}<br>
 	</p>
+
+	<p>
+		<center>
+			<a class="boton" href="https://api.whatsapp.com/send?phone=57{{$datos->telefono}}&text=Hola%20te%20saludamos%20de%20servirecarga.com">
+				<strong>
+					Contactar WP
+				</strong>
+			</a>
+		</center>
+	</p>
+
 </body>
 </html>
